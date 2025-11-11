@@ -43,8 +43,36 @@ This project focuses on predicting whether a loan application will be approved u
 
 ## 4️⃣ Results / Metrics
 - **Performance metrics:** classification report (precision, recall, F1-score), confusion matrix  
-- **Best performing model:** Decision Tree  
-
+- **Best performing model:** Decision Tree with accuracy (98% validation - 98% testing) 
 ---
-6️⃣
-## 5️⃣Folder Structure
+
+## 5️⃣ Usage / Instructions
+**Prerequisites:**
+- Python 3.8+
+- Required packages: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `joblib`
+
+**How to run:**
+1. Clone the repository:  
+   ```bash
+     git clone https://github.com/OmarMoawad1112/Loan-Approval-Classifier.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+     cd Loan-Approval-Classifier
+   ```
+3. Install dependencies:
+   ```bash
+     pip install -r requirements.txt
+   ```
+4. Open the Jupyter notebook:
+   ```bash
+     jupyter notebook notebook/loan_approval.ipynb
+   ```
+5. Run the notebook to see data analysis, model training, evaluation, and saving the Decision Tree model.
+   
+## 6️⃣ To load and use the model for predictions:
+```bash
+  import joblib
+  loaded_model = joblib.load("models/decision_tree_model.pkl")
+  preds = loaded_model.predict(X_test)
+```
