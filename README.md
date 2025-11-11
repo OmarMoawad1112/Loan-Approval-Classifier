@@ -58,7 +58,7 @@ This project focuses on predicting whether a loan application will be approved u
    ```
 2. Navigate to the project directory:
    ```bash
-   cd loan-approval-prediction
+   cd Loan-Approval-Classifier
    ```
 3. Install dependencies:
    ```bash
