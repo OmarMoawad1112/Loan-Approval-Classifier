@@ -54,18 +54,18 @@ This project focuses on predicting whether a loan application will be approved u
 **How to run:**
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/OmarMoawad1112/Loan-Approval-Classifier.git
+     git clone https://github.com/OmarMoawad1112/Loan-Approval-Classifier.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Loan-Approval-Classifier
+     cd Loan-Approval-Classifier
    ```
 3. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+     pip install -r requirements.txt
    ```
 4. Open the Jupyter notebook:
-   ```bash
-  jupyter notebook notebook/loan_approval.ipynb
+  ```bash
+    jupyter notebook notebook/loan_approval.ipynb
   ```
 5. Run the notebook to see data analysis, model training, evaluation, and saving the Decision Tree model.
