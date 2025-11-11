@@ -30,15 +30,7 @@ This project focuses on predicting whether a loan application will be approved u
 
 ---
 
-## 3️⃣ Objectives / Goals
-- Understand factors influencing loan approval decisions.
-- Build and compare **Logistic Regression**, **Decision Tree**, and **Random Forest** classifiers.
-- Evaluate model performance using classification metrics: accuracy, precision, recall, F1-score, and confusion matrices.
-- Apply preprocessing, feature scaling, encoding, and hyperparameter tuning to improve model performance and robustness.
-
----
-
-## 4️⃣ Models & Techniques
+## 3️⃣ Models & Techniques
 - **Models used:** Logistic Regression, Decision Tree, Random Forest  
 - **Techniques applied:**
   - Data preprocessing (handling missing values)
@@ -50,10 +42,10 @@ This project focuses on predicting whether a loan application will be approved u
 
 ---
 
-## 5️⃣ Results / Metrics
+## 4️⃣ Results / Metrics
 - **Performance metrics:** classification report (precision, recall, F1-score), confusion matrix  
 - **Best performing model:** Decision Tree  
 
 ---
-
-## 6️⃣ Folder Structure
+6️⃣
+## 5️⃣Folder Structure
