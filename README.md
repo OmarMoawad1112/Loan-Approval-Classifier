@@ -43,7 +43,7 @@ This project focuses on predicting whether a loan application will be approved u
 
 ## 4️⃣ Results / Metrics
 - **Performance metrics:** classification report (precision, recall, F1-score), confusion matrix  
-- **Best performing model:** Decision Tree (98% validation - 98% accuracy) 
+- **Best performing model:** Decision Tree with accuracy (98% validation - 98% testing) 
 ---
 
 ## 5️⃣ Usage / Instructions
