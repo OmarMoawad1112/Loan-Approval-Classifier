@@ -1,8 +1,7 @@
 # Loan Approval Prediction
 
 ## 1️⃣ Project Overview
-This project focuses on predicting whether a loan application will be approved using applicant demographics, financial attributes, and asset information from the **Kaggle Loan Approval dataset**. The dataset contains features such as the **number of dependents**, **education**, **employment status**, **annual income**, **loan amount**, **loan term**, **CIBIL score**, and various asset values, which together help determine the likelihood of loan approval.
-
+This project focuses on predicting whether a loan application will be approved using applicant demographics, financial attributes, and asset information from the **Kaggle Loan Approval dataset**.
 **Objectives:**
 - Understand the relationship between applicant demographics, financial profiles, and asset holdings on loan approval decisions.
 - Build and compare **Logistic Regression**, **Decision Tree**, and **Random Forest models** to predict loan approval (`loan_status`).
