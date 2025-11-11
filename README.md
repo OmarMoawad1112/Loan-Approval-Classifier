@@ -65,7 +65,7 @@ This project focuses on predicting whether a loan application will be approved u
      pip install -r requirements.txt
    ```
 4. Open the Jupyter notebook:
-  ```bash
-    jupyter notebook notebook/loan_approval.ipynb
-  ```
+   ```bash
+     jupyter notebook notebook/loan_approval.ipynb
+   ```
 5. Run the notebook to see data analysis, model training, evaluation, and saving the Decision Tree model.
