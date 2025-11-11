@@ -43,7 +43,7 @@ This project focuses on predicting whether a loan application will be approved u
 
 ## 4️⃣ Results / Metrics
 - **Performance metrics:** classification report (precision, recall, F1-score), confusion matrix  
-- **Best performing model:** Decision Tree  
+- **Best performing model:** Decision Tree (98% validation - 98% accuracy) 
 ---
 
 ## 5️⃣ Usage / Instructions
@@ -69,3 +69,10 @@ This project focuses on predicting whether a loan application will be approved u
      jupyter notebook notebook/loan_approval.ipynb
    ```
 5. Run the notebook to see data analysis, model training, evaluation, and saving the Decision Tree model.
+   
+## 6️⃣ To load and use the model for predictions:
+```bash
+  import joblib
+  loaded_model = joblib.load("models/decision_tree_model.pkl")
+  preds = loaded_model.predict(X_test)
+```
